@@ -9,7 +9,7 @@ winget install --id Git.Git -e --source winget
 
 ## 2. Global Git Configuration
 Configured user details and the default branch name for all local repositories:
-
+```cmd
 git config --global user.name "omar"
 git config --global user.email "omarsulaeman75@gmail.com"
 git config --global init.defaultBranch main
